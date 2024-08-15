@@ -13,6 +13,7 @@
  - clipping through textures especially map stuff
  - animation doesn't flip to make the player face the left
  - enemies stack on top of each other
+ - not sure if gameplay is 2 minutes
  */
 
 /*
