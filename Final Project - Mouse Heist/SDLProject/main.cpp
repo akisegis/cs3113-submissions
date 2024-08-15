@@ -1,6 +1,6 @@
 /**
 * Author: Aki Segismundo
-* Assignment: [Your game's name here]
+* Assignment: Mouse Heist
 * Date due: 2024-08-15, 1:00pm
 * I pledge that I have completed this assignment without
 * collaborating with anyone else, in conformance with the
@@ -10,9 +10,15 @@
 
 /*
  known bugs
- - clipping through textures
+ - clipping through textures especially map stuff
  - animation doesn't flip to make the player face the left
  - enemies stack on top of each other
+ */
+
+/*
+ art credits: mouse (https://rolff.itch.io/mouse-spritesheet-16x16), tileset (https://craftpix.net/freebies/)
+              the diamond + cheese were ripped from a really sketchy transparent png website
+ music + sounds are all mine
  */
 
 #define GL_SILENCE_DEPRECATION

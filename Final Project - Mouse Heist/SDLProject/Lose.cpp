@@ -121,6 +121,6 @@ void Lose::render(ShaderProgram* program)
     m_game_state.player->render(program);
     GLuint font_texture_id_1 = Utility::load_texture("assets/fonts/font1.png");
     Utility::draw_text(program, font_texture_id_1, "The Great Mouse Escape: The Hidden Heist", 0.5f, -0.25f, glm::vec3(1.7f, -1.5f, 0.0f));
-    Utility::draw_text(program, font_texture_id_1, "You lost and perished in the maze :(", 0.5f, -0.25f, glm::vec3(1.3f, -2.5f, 0.0f));
+    Utility::draw_text(program, font_texture_id_1, "You lost and perished in the bank :(", 0.5f, -0.25f, glm::vec3(2.5f, -2.5f, 0.0f));
     Utility::draw_text(program, font_texture_id_1, "Press 'r' to Restart or 'q' to Quit", 0.5f, -0.25f, glm::vec3(2.5f, -3.5f, 0.0f));
 }
